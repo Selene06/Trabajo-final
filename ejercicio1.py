@@ -54,7 +54,7 @@ if __name__ == "__main__":
     
     alertas, promedio = generar_resumen_sensores(registros_limpios, 25.0)
     
-    print("--- REPORTE SENSORES ---")
+    print("REPORTE SENSORES")
     print("Registros limpios:", registros_limpios)
     print("Sensores en alerta (>25°C):", alertas)
     print(f"Promedio térmico global: {promedio:.2f}°C\n")
